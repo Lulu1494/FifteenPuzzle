@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class BreadthFirstSearcher implements Searcher {
 
-	private Queue<Node> frontier;
+	protected Queue<Node> frontier;
 	private int nodeCount;
 	private int cutoffDepth;
 	
